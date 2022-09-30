@@ -12,54 +12,105 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
- 
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/style.scss" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e35b7b54a6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <main>
-    <section>
-      <div>
-        <header>
+    <section class="full-height page1">
+      <div class="flexbox">
+        <div class="heading1">
           <h1>Hi, I'm Sara.</h1>
+        </div>
+        <div class="heading2">
           <h2>Blockchain developer</h2>
-        </header>
-      </div>
-      <div>
-        <figure>
-          <img src="Sara.jpg" width="650" height="879">
-          <figcaption>Portrait of Sara</figcaption>
-        </figure>
-      </div>
-      <div>
-        <p>Born in 1988 in Norrköping, Sweden. Current residence Göteborg, Sweden. 
-        Specializing in Blockchain technology to help lay the foundation for a safer,
-        smarter and more sustainable transport chain.</p>
-        <br>
-        <p>What benefits and utilities do you want to create? What are the problems 
-        today that Blockchains can help solve? </p>
-        <a href="mailto:soderlind.sara@gmail.com">Let's talk about it.</a>
+        </div>
+        <div class="photo">
+          <figure>
+            <img src="sara2.png" width="650" height="879" alt="portrait_Sara">
+          </figure>
+        </div>
       </div>
     </section>
-    <section>
-      <div>
-        <p>Text om mig</p>
+    <section class="short-page">
+      <div class="presentation">
+        <p class="pres_text">Born in 1988 in Norrköping, Sweden. Current residence Göteborg, Sweden.
+          Specializing in Blockchain technology to help lay the foundation for a safer,
+          smarter and more sustainable transport chain. <br>What benefits and utilities do you want to create? What are
+          your problems
+          today that Blockchains can help solve? </p>
+        <a href="mailto:soderlind.sara@gmail.com">Let's talk about it &nbsp;<i class="fa-solid fa-left-long"></i></a>
       </div>
-      <div>
+      <div class="scroll-down"></div>
+    </section>
+    <section class="full-height page2">
+      <div class="aboutme">
         <h1>About me.</h1>
       </div>
+      <div class="info">
+        <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br class="pres_desktop">
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br class="pres_desktop">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco<br class="pres_desktop">
+          laboris nisi ut aliquip ex ea commodo consequat. <br class="pres_desktop">
+          Duis aute irure dolor in reprehenderit in voluptate velit <br class="pres_desktop">
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br class="pres_desktop">
+          occaecat cupidatat non proident, sunt in culpa qui officia <br class="pres_desktop">
+          deserunt mollit anim id est laborum.<br class="pres_desktop">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br class="pres_desktop">
+          sed do eiusmod tempor incididunt ut labore et dolore magna <br class="pres_desktop">
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br class="pres_desktop">
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.<br class="pres_desktop">
+          Duis aute irure dolor in reprehenderit in voluptate velit <br class="pres_desktop">
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br class="pres_desktop">
+          occaecat cupidatat non proident, sunt in culpa qui officia <br class="pres_desktop">
+          deserunt mollit anim id est laborum.<br class="pres_desktop">
+          <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br class="pres_desktop">
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br class="pres_desktop">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco<br class="pres_desktop">
+          laboris nisi ut aliquip ex ea commodo consequat.<br class="pres_desktop">
+          Duis aute irure dolor in reprehenderit in voluptate velit<br class="pres_desktop">
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br class="pres_desktop">
+          occaecat cupidatat non proident, sunt in culpa qui officia <br class="pres_desktop">
+          deserunt mollit anim id est laborum.
+        </article>
+      </div>
     </section>
-    <section>
-      <div>
+    <section class="full-height page3">
+      <hr>
+      <div class="education">
         <h1>Education.</h1>
       </div>
-      <div>
-        <p>Lista med utbildning och kompetenser.</p>
+      <div class="educations">
+        <table class="table-style">
+          <tr>
+            <td class="header3">Blockchain Development, Medieinstitutet<p class="edu">Education that provides
+                specialized knowledge in theoretical and practical development,
+                design and programming of blockchain-based systems and applications. </p><br></td>
+            <td>2022-</td>
+          </tr>
+          <tr>
+            <td class="header3">Web Development, Mittuniversitetet<p class="edu">The education focused on theoretical as
+                well as practical skills and had a large
+                emphasis on web development with modern tools and languages.</p><br></td>
+            <td>2009-2011</td>
+          </tr>
+          <tr>
+            <td class="header3">Graphic design and web development, JTH <p class="edu">Courses in Graphic Design and Web
+                Development.</p>
+            </td>
+            <td>2007-2008</td>
+          </tr>
+        </table>
       </div>
     </section>
+    <footer>
+      <div class="icons"><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;&nbsp;<i
+          class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-linkedin-in"></i></div>
+    </footer>
   </main>
 </body>
 
