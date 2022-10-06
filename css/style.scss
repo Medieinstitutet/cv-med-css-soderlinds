@@ -57,11 +57,16 @@ body {
   position: absolute;
   margin-bottom: 0;
   padding-top: 10px;
-  padding-left: 15px;
   padding-bottom: 20px;
   background-color: #343b41;
+  width: 100%;
 
 }
+.pres_text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 
 .scroll-down {
   position: absolute;
@@ -123,16 +128,8 @@ body {
 
 
 
-.aboutme {
-  margin-top: 210px;
-  position: absolute;
-  left: 9%;
-  opacity: 0.5;
-
-}
-
 .info {
-  margin-top: 300px;
+  margin-top: 10px;
   position: absolute;
   left: 2%;
   width: 70vw;
@@ -145,6 +142,83 @@ body {
 .pres_desktop {
   display: none;
 }
+
+.tablet {
+  display: none;
+}
+
+.skill_bar {
+  left: 2%;
+  margin-top: 700px;
+  width: 300px;
+  position: absolute;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+
+
+.details{
+  width: 300px;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color:#fff;
+  font-weight: lighter;
+}
+.bar{
+  position: relative;
+  width: 300px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 70%;
+  }
+}
+
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 70%;
+  }
+}
+
+#javascript-bar{
+  animation: javascript-fill 2s forwards;
+}
+@keyframes javascript-fill{
+  100%{
+      width: 5%;
+  }
+}
+
+.language {
+  display: none;
+  }
+
+  
+
+ 
 
 
 /* ------------------------------------------------ */
@@ -161,12 +235,30 @@ body {
   position: absolute;
   left: 9%;
   opacity: 0.5;
+  
 }
 
 .educations {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+
+.work {
+  margin-top: 20px;
+  position: absolute;
+  left: 9%;
+  opacity: 0.5;
+ 
+}
+
+.employments {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 300px;
+  padding-bottom: 50px;
 }
 
 /* ------------------------------------------------ */
@@ -203,6 +295,11 @@ h2 {
   color: #000;
 }
 
+h3 {
+  font-size: 2em;
+  color: #fff;
+}
+
 .pres_text {
   font-weight: lighter;
   font-size: 0.9em;
@@ -235,13 +332,19 @@ a:hover {
 
 .edu {
   font-size: 0.7em;
+  font-weight: lighter;
+}
+
+.work_exp {
+  font-size: 0.7em;
+  font-weight: lighter;
 }
 
 /* ------------------------------------------------ */
 /* ------------------------ DESKTOP --------------- */
 /* ------------------------------------------------ */
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1800px) {
   .heading1 {
     position: relative;
     margin-top: 200px;
@@ -262,24 +365,93 @@ a:hover {
   .presentation {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
     margin-left: 87%;
     width: 10%;
-    margin-top: -400px;
+    margin-top: -420px;
     background: none;
   }
 
+.pres_text {
+  margin-left: 0px;
+}
+
+.link_tablet {
+  margin-left: -10px;
+}
+
   .aboutme {
-    margin-top: 100px;
-    left: 1000px;
-    margin-top: 250px;
+    visibility: hidden;
   }
 
   .info {
     width: 80vw;
     padding-top: 50px;
-    margin-top: 100px;
-    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+
+  .skill_bar {
+    width: 300px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 750px;
+  }
+  
+  .language {
+  float: right;
+  margin-right: 220px;
+  margin-top: 100px;
+  }
+
+  .language {
+    display: block;
+    }
+
+ 
+
+  .languageskills:not(:last-child){
+    margin-bottom: 30px;
+  }
+
+  .languagedetails{
+    width: 300px;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color:#fff;
+    font-weight: lighter;
+  }
+  .languagebar{
+    position: relative;
+    width: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+  
+  }
+  .languagebar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+  #lang_english-bar{
+    animation: english-fill 2s forwards;
+  }
+  @keyframes english-fill{
+    100%{
+        width: 95%;
+    }
+  }
+  
+  #lang_swedish-bar{
+    animation: swedish-fill 2s forwards;
+  }
+  @keyframes swedish-fill{
+    100%{
+        width: 100%;
+    }
   }
 
   .page3 {
@@ -287,7 +459,7 @@ a:hover {
   }
 
   .education {
-    margin-top: 220px;
+    margin-top: 120px;
     position: absolute;
     left: 200px;
     opacity: 0.5;
@@ -296,7 +468,26 @@ a:hover {
   .educations {
     margin-left: 900px;
     margin-right: 200px;
-    margin-top: 250px;
+    margin-top: 100px;
+  }
+
+  .work {
+    margin-top: 100px;
+    position: absolute;
+    left: 1000px;
+    opacity: 0.5;
+  }
+
+  .employments {
+    
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 1050px;
+    
+  }
+
+  .table-style {
+    margin-top: -200px;
   }
 
   .pres_desktop {
@@ -308,13 +499,123 @@ a:hover {
   }
 
   h1 {
-    font-size: 110px;
+    font-size: 7em;
   }
 
-  h2 {}
+  .header {
+    font-size: 5em;
+  }
 
+  
   .pres_text {
     color: #343b41;
     font-size: 0.9em;
   }
 }
+
+/* ------------------------------------------------ */
+/* ------------------------ TABLET ---------------- */
+/* ------------------------------------------------ */
+
+@media screen and (min-width: 900px) and (max-width: 1799px) {
+  .photo {
+    margin-top: -50px;
+    margin-left: 220px;
+  
+  }
+  .heading1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .heading2 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 55px;
+  }
+
+  .tablet {
+    display: flex;
+  }
+
+.pres_text {
+  margin-left: 50px;
+}
+
+.link_tablet {
+  margin-left: 40px;
+}
+
+  .skill_bar {
+    
+    margin-top: 500px;
+   
+  }
+
+  .language {
+    display: block;
+    margin-left: 550px;
+    margin-top: 500px;
+    position: absolute;
+    }
+
+    .languageskills:not(:last-child){
+      margin-bottom: 30px;
+    }
+  
+    .languagedetails{
+      width: 300px;
+      display: flex;  
+      justify-content: space-between;
+      margin-bottom: 10px;
+      color:#fff;
+      font-weight: lighter;
+    }
+    .languagebar{
+      position: relative;
+      width: 300px;
+      border: 2px solid #ffffff;
+      border-radius: 20px;
+    
+    }
+    .languagebar div{
+      position: relative;
+      width: 0;
+      height: 9px;
+      border-radius: 10px;
+      background-color: #ffffff;
+    }
+  
+    #lang_english-bar{
+      animation: english-fill 2s forwards;
+    }
+    @keyframes english-fill{
+      100%{
+          width: 95%;
+      }
+    }
+    
+    #lang_swedish-bar{
+      animation: swedish-fill 2s forwards;
+    }
+    @keyframes swedish-fill{
+      100%{
+          width: 100%;
+      }
+    }
+
+    .info {
+      max-width: 900px;
+    }
+
+    .educations {
+      max-width: 900px;
+
+    }
+    .employments {
+      max-width: 900px;
+    }
+
+
+  }
