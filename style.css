@@ -50,6 +50,11 @@ body {
   margin-left: -200px;
 }
 
+.portrait {
+  max-width: 100%;
+}
+
+
 .presentation {
   position: absolute;
   margin-bottom: 0;
