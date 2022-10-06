@@ -40,11 +40,17 @@ body {
 
 }
 
+h1 {
+  font-size: 2.4em;
+  text-shadow: 1px 1px rgb(149, 149, 149);
+  color: #343b41;
+}
+
 .heading2 {
   position: relative;
-  margin-top: -80px;
+  margin-top: -45px;
   margin-left: 4px;
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
 
@@ -307,11 +313,7 @@ footer {
 /* ------------------------ Text------------------- */
 /* ------------------------------------------------ */
 
-h1 {
-  font-size: 4.4em;
-  text-shadow: 1px 1px rgb(149, 149, 149);
-  color: #343b41;
-}
+
 
 h2 {
   font-size: 1.1em;
@@ -394,6 +396,10 @@ a:active {
     margin-top: -110px;
     margin-left: 207px;
   }
+
+  h1 {
+    font-size: 4.4em;
+    }
 
   .photo {
     margin-top: -500px;
@@ -576,6 +582,10 @@ a:active {
     margin-top: 50px;
     margin-left: 50px;
   }
+
+  h1 {
+    font-size: 4.4em;
+    }
 
   .heading2 {
     position: absolute;
