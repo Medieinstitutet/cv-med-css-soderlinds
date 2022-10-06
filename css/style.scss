@@ -8,7 +8,6 @@ body {
 
 .full-height {
   min-height: 100vh;
-
 }
 
 .short-page {
@@ -44,13 +43,11 @@ body {
   position: relative;
   margin-top: -80px;
   margin-left: 5px;
-
 }
 
 .photo {
   margin-top: -100px;
   margin-left: -200px;
-
 }
 
 .presentation {
@@ -60,8 +57,8 @@ body {
   padding-bottom: 20px;
   background-color: #343b41;
   width: 100%;
-
 }
+
 .pres_text {
   margin-left: 10px;
   margin-right: 10px;
@@ -86,7 +83,6 @@ body {
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -webkit-animation: fade_move_down 4s ease-in-out infinite;
   -moz-animation: fade_move_down 4s ease-in-out infinite;
- 
 }
 
 @-moz-keyframes fade_move_down {
@@ -158,22 +154,23 @@ body {
 }
 
 
-.details{
+.details {
   width: 300px;
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  color:#fff;
+  color: #fff;
   font-weight: lighter;
 }
-.bar{
+
+.bar {
   position: relative;
   width: 300px;
   border: 2px solid #ffffff;
   border-radius: 20px;
-
 }
-.bar div{
+
+.bar div {
   position: relative;
   width: 0;
   height: 9px;
@@ -181,44 +178,47 @@ body {
   background-color: #ffffff;
 }
 
-.skills:not(:last-child){
+.skills:not(:last-child) {
   margin-bottom: 30px;
 }
 
-#html-bar{
+#html-bar {
   animation: html-fill 2s forwards;
 }
-@keyframes html-fill{
-  100%{
-      width: 70%;
+
+@keyframes html-fill {
+  100% {
+    width: 70%;
   }
 }
 
-#css-bar{
+#css-bar {
   animation: css-fill 2s forwards;
 }
-@keyframes css-fill{
-  100%{
-      width: 70%;
+
+@keyframes css-fill {
+  100% {
+    width: 70%;
   }
 }
 
-#javascript-bar{
+#javascript-bar {
   animation: javascript-fill 2s forwards;
 }
-@keyframes javascript-fill{
-  100%{
-      width: 5%;
+
+@keyframes javascript-fill {
+  100% {
+    width: 5%;
   }
 }
 
 .language {
   display: none;
-  }
+}
 
-  
 
- 
+
+
 
 
 /* ------------------------------------------------ */
@@ -235,7 +235,6 @@ body {
   position: absolute;
   left: 9%;
   opacity: 0.5;
-  
 }
 
 .educations {
@@ -251,7 +250,6 @@ body {
   position: absolute;
   left: 9%;
   opacity: 0.5;
- 
 }
 
 .employments {
@@ -371,13 +369,13 @@ a:hover {
     background: none;
   }
 
-.pres_text {
-  margin-left: 0px;
-}
+  .pres_text {
+    margin-left: 0px;
+  }
 
-.link_tablet {
-  margin-left: -10px;
-}
+  .link_tablet {
+    margin-left: -10px;
+  }
 
   .aboutme {
     visibility: hidden;
@@ -396,39 +394,38 @@ a:hover {
     margin-top: 50px;
     margin-left: 750px;
   }
-  
+
   .language {
-  float: right;
-  margin-right: 220px;
-  margin-top: 100px;
+    float: right;
+    margin-right: 220px;
+    margin-top: 100px;
   }
 
   .language {
     display: block;
-    }
+  }
 
- 
-
-  .languageskills:not(:last-child){
+  .languageskills:not(:last-child) {
     margin-bottom: 30px;
   }
 
-  .languagedetails{
+  .languagedetails {
     width: 300px;
-    display: flex;  
+    display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    color:#fff;
+    color: #fff;
     font-weight: lighter;
   }
-  .languagebar{
+
+  .languagebar {
     position: relative;
     width: 300px;
     border: 2px solid #ffffff;
     border-radius: 20px;
-  
   }
-  .languagebar div{
+
+  .languagebar div {
     position: relative;
     width: 0;
     height: 9px;
@@ -436,21 +433,23 @@ a:hover {
     background-color: #ffffff;
   }
 
-  #lang_english-bar{
+  #lang_english-bar {
     animation: english-fill 2s forwards;
   }
-  @keyframes english-fill{
-    100%{
-        width: 95%;
+
+  @keyframes english-fill {
+    100% {
+      width: 95%;
     }
   }
-  
-  #lang_swedish-bar{
+
+  #lang_swedish-bar {
     animation: swedish-fill 2s forwards;
   }
-  @keyframes swedish-fill{
-    100%{
-        width: 100%;
+
+  @keyframes swedish-fill {
+    100% {
+      width: 100%;
     }
   }
 
@@ -479,11 +478,10 @@ a:hover {
   }
 
   .employments {
-    
+
     padding-bottom: 50px;
     margin-left: 200px;
     margin-right: 1050px;
-    
   }
 
   .table-style {
@@ -506,7 +504,6 @@ a:hover {
     font-size: 5em;
   }
 
-  
   .pres_text {
     color: #343b41;
     font-size: 0.9em;
@@ -521,14 +518,14 @@ a:hover {
   .photo {
     margin-top: -50px;
     margin-left: 220px;
-  
   }
+
   .heading1 {
     position: absolute;
     margin-top: 50px;
     margin-left: 50px;
   }
-  
+
   .heading2 {
     position: absolute;
     margin-top: 160px;
@@ -539,18 +536,17 @@ a:hover {
     display: flex;
   }
 
-.pres_text {
-  margin-left: 50px;
-}
+  .pres_text {
+    margin-left: 50px;
+  }
 
-.link_tablet {
-  margin-left: 40px;
-}
+  .link_tablet {
+    margin-left: 40px;
+  }
 
   .skill_bar {
-    
+
     margin-top: 500px;
-   
   }
 
   .language {
@@ -558,64 +554,67 @@ a:hover {
     margin-left: 550px;
     margin-top: 500px;
     position: absolute;
-    }
-
-    .languageskills:not(:last-child){
-      margin-bottom: 30px;
-    }
-  
-    .languagedetails{
-      width: 300px;
-      display: flex;  
-      justify-content: space-between;
-      margin-bottom: 10px;
-      color:#fff;
-      font-weight: lighter;
-    }
-    .languagebar{
-      position: relative;
-      width: 300px;
-      border: 2px solid #ffffff;
-      border-radius: 20px;
-    
-    }
-    .languagebar div{
-      position: relative;
-      width: 0;
-      height: 9px;
-      border-radius: 10px;
-      background-color: #ffffff;
-    }
-  
-    #lang_english-bar{
-      animation: english-fill 2s forwards;
-    }
-    @keyframes english-fill{
-      100%{
-          width: 95%;
-      }
-    }
-    
-    #lang_swedish-bar{
-      animation: swedish-fill 2s forwards;
-    }
-    @keyframes swedish-fill{
-      100%{
-          width: 100%;
-      }
-    }
-
-    .info {
-      max-width: 900px;
-    }
-
-    .educations {
-      max-width: 900px;
-
-    }
-    .employments {
-      max-width: 900px;
-    }
-
-
   }
+
+  .languageskills:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .languagedetails {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: lighter;
+  }
+
+  .languagebar {
+    position: relative;
+    width: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+  }
+
+  .languagebar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
+  #lang_english-bar {
+    animation: english-fill 2s forwards;
+  }
+
+  @keyframes english-fill {
+    100% {
+      width: 95%;
+    }
+  }
+
+  #lang_swedish-bar {
+    animation: swedish-fill 2s forwards;
+  }
+
+  @keyframes swedish-fill {
+    100% {
+      width: 100%;
+    }
+  }
+
+  .info {
+    max-width: 900px;
+  }
+
+  .educations {
+    max-width: 900px;
+  }
+
+  .employments {
+    max-width: 900px;
+  }
+
+
+}
