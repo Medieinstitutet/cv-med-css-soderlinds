@@ -148,6 +148,10 @@ body {
   display: none;
 }
 
+.header {
+  max-width: 100%;
+}
+
 .skill_bar {
   left: 2%;
   margin-top: 750px;
