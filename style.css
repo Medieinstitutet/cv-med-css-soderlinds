@@ -49,8 +49,8 @@ body {
 
 
 .portrait {
-  margin-top: 0px;
-  margin-left: -50px;
+  margin-top: -50px;
+  margin-left: -70px;
   width:350px; 
   height: auto;
 }
@@ -133,7 +133,7 @@ body {
   margin-top: 10px;
   position: absolute;
   left: 2%;
-  width: 70vw;
+  width: 85vw;
   padding-left: 30px;
   padding-top: 100px;
   padding-right: 30px;
