@@ -136,10 +136,10 @@ h1 {
 
 
 .info {
-  margin-top: 10px;
+  margin-top: 20px;
   position: absolute;
   left: 2%;
-  width: 80vw;
+  width: 85vw;
   padding-left: 30px;
   padding-top: 100px;
   padding-right: 10px;
@@ -161,7 +161,7 @@ h1 {
 
 .skill_bar {
   left: 2%;
-  margin-top: 800px;
+  margin-top: 830px;
   width: 280px;
   position: absolute;
   padding-left: 30px;
