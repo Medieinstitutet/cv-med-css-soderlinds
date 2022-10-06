@@ -277,6 +277,22 @@ footer {
   padding-right: 10px;
 }
 
+.contact {
+  background-color: #343b41;
+  border: none;
+  color:#fff;
+  cursor: pointer;
+}
+
+.contactphone{
+  border: none;
+  color: #fff;
+  background-color: #343b41;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+
 /* ------------------------------------------------ */
 /* ------------------------ Text------------------- */
 /* ------------------------------------------------ */
@@ -615,6 +631,5 @@ a:hover {
   .employments {
     max-width: 900px;
   }
-
 
 }
