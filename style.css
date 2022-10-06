@@ -45,15 +45,13 @@ body {
   margin-left: 4px;
 }
 
-.photo {
-  margin-top: -100px;
-  margin-left: -200px;
-}
 
 .portrait {
-  max-width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width:350px; 
+  height: auto;
 }
-
 
 .presentation {
   position: absolute;
@@ -150,6 +148,7 @@ body {
 
 .header {
   max-width: 90%;
+  font-size: 3em;
 }
 
 .skill_bar {
@@ -234,7 +233,7 @@ body {
 /* ------------------------ Part 3 ---------------- */
 /* ------------------------------------------------ */
 .page3 {
-  margin-top: 300px;
+  margin-top: 500px;
   opacity: 0.5;
   background-color: #fff;
 }
@@ -399,6 +398,11 @@ a:active {
     margin-left: 600px;
   }
 
+  .portrait {
+    width:650px; 
+    height: auto;
+}
+
   .presentation {
     display: flex;
     flex-direction: column;
@@ -560,6 +564,11 @@ a:active {
     margin-left: 220px;
   }
 
+  .portrait {
+    width:650px; 
+    height: auto;
+}
+
   .heading1 {
     position: absolute;
     margin-top: 50px;
@@ -582,6 +591,10 @@ a:active {
 
   .link_tablet {
     margin-left: 40px;
+  }
+
+  .header {
+    font-size: 5em;
   }
 
   .skill_bar {
